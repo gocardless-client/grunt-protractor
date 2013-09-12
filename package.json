@@ -8,5 +8,11 @@
   "bugs": {
     "url": "http://github.com/gocardless-client/grunt-protractor/issues"
   },
-  "main": "protractor"
+  "main": "tasks/protractor",
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
 }
